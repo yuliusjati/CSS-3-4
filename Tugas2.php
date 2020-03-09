@@ -1,0 +1,40 @@
+<?php
+$nis = $_POST['nis'];
+$namade = $_POST['namade'];
+$namabe = $_POST['namabe'];
+$tempat = $_POST['tempat'];
+$tanggal = $_POST['tanggal'];
+$agama = $_POST['agama'];
+$jk = $_POST['jk'];
+$email = $_POST['email'];
+$tlp = $_POST['tlp'];
+$wa = $_POST['wa'];
+$facebook = $_POST['facebook'];
+$web = $_POST['web'];
+$alamat = $_POST['alamat'];
+$jurusan = $_POST['jurusan'];
+$kelas = $_POST['kelas'];
+$us = $_POST['us'];
+$password = $_POST['password'];
+$pesan = $_POST['pesan'];
+
+echo "Hasil Data Siswa <br>";
+echo "NIS = $nis <br>";
+echo "Nama Depan  = $namade <br>";
+echo "Nama Belakang = $namabe <br>";
+echo "Tempat Lahir = $tempat <br>";
+echo "Tanggal Lahir = $tanggal <br>";
+echo "Agama/Kepercayaan = $agama <br>";
+echo "Jenis Kelamin = $jk <br>";
+echo "Alamat Email = $email <br>";
+echo "Telepon = $tlp <br>";
+echo "WhatsApp = $wa <br>";
+echo "Facebook = $facebook <br>";
+echo "WebSite = $web <br>";
+echo "Alamat = $alamat <br>";
+echo "Jurusan = $jurusan <br>";
+echo "Kelas = $kelas <br>";
+echo "Username = $us <br>";
+echo "Password = $password <br>";
+echo "Pesan = $pesan <br>";
+?>
